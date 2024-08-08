@@ -4,7 +4,6 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 sudo apt install docker-ce
 docker --version
-sudo systemctl status docker
 sudo usermod -aG docker $USER
 sudo apt install docker-compose
 docker run hello-world
